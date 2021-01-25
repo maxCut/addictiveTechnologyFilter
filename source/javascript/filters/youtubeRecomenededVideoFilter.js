@@ -1,3 +1,6 @@
-var getUrl = window.location;
-var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-alert("The URL of this page is: " + baseUrl);
+$('.ytp-endscreen-content').remove();
+var autoplayButton = $('.ytp-autonav-toggle-button')[0]
+if(autoplayButton.getAttribute("aria-checked"))
+{
+    $('.ytp-autonav-toggle-button').click()
+}
