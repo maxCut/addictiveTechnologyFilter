@@ -9,7 +9,3 @@ Deploy:
     Turn developer mode on
     Click load unpacked extension and select this repo
 
-Code:
-    All javascript files in the scripts/javascript directory will be run on each page visit.
-    Try to keep code organized withtin relevant repos (ex: filters). 
-    Ensure the code changes you make will only occur when inteneded. 
